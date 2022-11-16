@@ -1,0 +1,184 @@
+import java.util.Scanner;
+public class Category5 {
+
+	public static void main(String[] args) {
+		Scanner rd = new Scanner(System.in);
+		System.out.println("Enter Name:");
+		String name=rd.next();
+		System.out.print("****************MOBLIE*************************");
+		System.out.println();
+		System.out.print("********************************************************");
+		System.out.println();
+		System.out.println("1.Apple");
+		System.out.println("2.Samsung");
+		System.out.println("3.Vivo");
+		System.out.println();
+
+		while (true) {
+			System.out.println("Enter Category:-");
+			int category = rd.nextInt();
+			if (category == 0) {
+				break;
+			}
+			if (category == 1 || category == 2 || category == 3 ) 
+			{
+				if (category == 1) {
+
+					System.out.println("");
+					System.out.println("Welcome to the MOBILE category of the Cartttt");
+					System.out.println("Following are the Apple Products we offer:-");
+					System.out.println("--------------------------------------------------");
+					System.out.println("1.Iphone 13 (128GB)" +"Rs.50,000/-");
+					System.out.println();
+					System.out.println("2.Iphone 13 pro"+"\n Rs.84,990");
+					System.out.println();
+					System.out.println("3.Iphone 13 pro max"+"\n Rs.95,750");
+					System.out.println();
+					System.out.println("Choose Option of which product you prefer to Buy:-");
+					
+					while (true) {
+						Scanner sc = new Scanner(System.in);
+						System.out.println("Enter option:");
+						int option = rd.nextInt();
+						if (option == 0) {
+							break;
+						}
+						if (option == 1 || option == 2 || option == 3 ) {
+							if (option == 1) {
+										
+								
+										System.out.println("Confirming your Order");
+										System.out.println("Your Order is Placed Succesfully.");
+										System.out.println("!!!!!!!!!!!!!!Thanks for Shopping  "+name);
+										break;
+									}
+									if (option == 2) {
+										
+										System.out.println("Confirming your Order");
+										System.out.println("Your Order is Placed Succesfully.");
+										System.out.println("!!!!!!!!!!!!!!Thanks for Shopping "+name);
+										break;
+									}
+									if (option == 3) {
+										
+										System.out.println("Confirming your Order");
+										System.out.println("Your Order is Placed Succesfully.");
+										System.out.println("!!!!!!!!!!!!!!Thanks for Shopping "+name);
+										break;
+									}
+									else{
+										System.out.println("Invalid input!");
+									}
+								}
+
+
+							}
+
+						}
+						if (category == 2) {
+							System.out.println("Welcome to Samsung Section of the Cartt:-");
+							System.out.println("*******************************************");
+							System.out.println("1.Samsung S20"+"\n Rs.41,490");
+							System.out.println();
+							System.out.println("2.Samsung F90"+"\n Rs.49,990");
+							System.out.println();
+							System.out.println("3.Samsung Z10  "+"\n Rs.72,500");
+							System.out.println();
+							System.out.println("Choose Option of which product you prefer to Buy:-");
+							int Son = rd.nextInt();
+							if (Son == 0) 
+							{
+								break;
+							}
+							if (Son == 1 || Son == 2 || Son == 3 )
+							{
+								if (Son == 1) {
+									
+									System.out.println("Confirming your Order");
+									System.out.println("Your Order is Placed Succesfully.");
+									System.out.println("!!!!!!!!!!!!!!Thanks for Shopping "+name);
+									break;
+								}
+								if (Son == 2) {
+									
+									System.out.println("Confirming your Order");
+									System.out.println("Your Order is Placed Succesfully.");
+									System.out.println("!!!!!!!!!!!!!!Thanks for Shopping "+name);
+									break;
+								}
+								if (Son == 3) {
+									
+									System.out.println("Confirming your Order");
+									System.out.println("Your Order is Placed Succesfully.");
+									System.out.println("!!!!!!!!!!!!!!Thanks for Shopping "+name);
+									break;
+								}
+								else{
+									System.out.println("Invalid input!");
+								}
+							}
+
+
+						}
+						if (category == 3) {
+
+							System.out.println("Welcome to Vivo Section of the Cartt:-");
+							System.out.println("*******************************************");
+							System.out.println("1.Vivo V7 "+"\n Rs.27,490");
+							System.out.println();
+							System.out.println("2.Vivo V11"+"\n Rs.35,990");
+							System.out.println();
+							System.out.println("3.Vivo 13"+"\n Rs.52,500");
+							System.out.println();
+							System.out.println("Choose Option of which product you prefer to Buy:-");
+							int Red = rd.nextInt();
+							if (Red == 0) 
+							{
+								break;
+							}
+							if (Red == 1 || Red == 2 || Red == 3 )
+							{
+								if (Red == 1) {
+									
+									System.out.println("Confirming your Order");
+									System.out.println("Your Order is Placed Succesfully.");
+									System.out.println("!!!!!!!!!!!!!!Thanks for Shopping "+name);
+									break;
+								}
+								if (Red == 2) {
+									
+									System.out.println("Confirming your Order");
+									System.out.println("Your Order is Placed Succesfully.");
+									System.out.println("!!!!!!!!!!!!!!Thanks for Shopping "+name);
+									break;
+								}
+								if (Red == 3) {
+									
+									System.out.println("Confirming your Order");
+									System.out.println("Your Order is Placed Succesfully.");
+									System.out.println("!!!!!!!!!!!!!!Thanks for Shopping "+name);
+									break;
+								}
+								else{
+									System.out.println("Invalid input!");
+									break;
+								}
+							}
+
+
+
+							else{
+								System.out.println("Invalid input!");
+							}
+
+
+
+						} 
+					} 
+				}
+			
+
+
+	}
+
+}
