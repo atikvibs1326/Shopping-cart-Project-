@@ -1,0 +1,475 @@
+package com.atik.ShoppingCart.project;
+
+import java.util.Scanner;
+
+public class CAtegory3 {
+	public static void main(String[] args) {
+
+
+		Scanner in = new Scanner(System.in);
+		System.out.print("****************ELECTRONICS*************************");
+		System.out.println();
+		System.out.print("-----------------------------------------------------------------");
+		System.out.println();
+		System.out.println("ALL CATEGORIES:-");
+		System.out.println("1.Laptops");
+		System.out.println("2.SmartWatch");
+		System.out.println("3.Camera");
+		System.out.println();
+
+		while (true) {
+			System.out.println("Enter Category:-");
+			int category = in.nextInt();
+			if (category == 0) {
+				break;
+			}
+			if (category == 1 || category == 2 || category == 3 || category == 4)
+			{
+				if (category == 1) {
+
+					System.out.println("");
+					Laptop();
+					break;
+
+				}
+				if (category == 2) {
+					System.out.println("");
+					Watch();
+					break;
+				}
+				if (category == 3) {
+					System.out.println("");
+					Camera();
+					break;
+				}
+				else if(category == 9){
+					break;
+				}
+
+			}else{
+				System.out.println("Invalid input!");
+			}
+		}
+	}
+
+	static void Laptop() {
+		System.out.println("Welcome to the Laptop category of the Cartttt");
+		System.out.println("Following are the Laptop we offer:-");
+		System.out.println("1.Dell");
+		System.out.println("2.Asus");
+		System.out.println("3.Hp");
+
+		while (true) {
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Enter option:");
+			int option = sc.nextInt();
+			if (option == 0) {
+				break;
+			}
+			if (option == 1 || option == 2 || option == 3 ) {
+				if (option == 1) {
+
+					System.out.println("Welcome to Dell Section of the Cartt:-");
+					System.out.println("*******************************************");
+					System.out.println("1.Dell inspiron 15/windows 11/i5 11th gen 4gb/512GB SSD"+"\n Rs 45,000/-");
+					System.out.println();
+					System.out.println("2. Dell Alienware ,Windows 11/i5 10th gen 8gb/1TB HDD"+"\n Rs 98,589/-");
+					System.out.println();
+					System.out.println("3.Dell Vostro,Windows 11/i3 11th gen 4gb/256GB SDD  "+"\n Rs.74,990/-");
+					System.out.println();
+					System.out.println("Choose Option of which product you prefer to Buy:-");
+					int dell = sc.nextInt();
+					if (dell == 0)
+					{
+						break;
+					}
+					if (dell == 1 || dell == 2 || dell == 3 )
+					{
+						if (dell == 1) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (dell == 2) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (dell == 3) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						else{
+							System.out.println("Invalid input!");
+						}
+					}
+
+
+				}
+				if (option == 2) {
+
+					System.out.println("Welcome to ASUS Section of the Cartt:-");
+					System.out.println("*******************************************");
+					System.out.println("1.Asus TUF F15H AMD Ryzen 6/Rtx2000 "+"\n Rs.94,000");
+					System.out.println();
+					System.out.println("2.Asus TUF A15 AMD Ryzen 3/Rtx1640"+"\n Rd.41,990");
+					System.out.println();
+					System.out.println("3.Asus TUF F15 AMD Ryzen 5/Gtx1640"+"\n Rs.52,500");
+					System.out.println();
+					System.out.println("Choose Option of which product you prefer to Buy:-");
+					int sus = sc.nextInt();
+					if (sus == 0)
+					{
+						break;
+					}
+					if (sus == 1 || sus == 2 || sus == 3 )
+					{
+						if (sus == 2) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (sus == 2) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (sus == 3) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						else{
+							System.out.println("Invalid input!");
+						}
+					}
+				}
+				if (option == 3) {
+
+					System.out.println("Welcome to HP Section of the Cartt:-");
+					System.out.println("*******************************************");
+					System.out.println("1.Hp Paviliion 14"+"\n Rs.47,490");
+					System.out.println();
+					System.out.println("2.Hp Victus"+"\n Rd.85,990");
+					System.out.println();
+					System.out.println("3.Hp Chromebook"+"\n Rs.52,500");
+					System.out.println();
+					System.out.println("Choose Option of which product you prefer to Buy:-");
+					int hpp = sc.nextInt();
+					if (hpp == 0)
+					{
+						break;
+					}
+					if (hpp == 1 || hpp == 2 || hpp == 3 )
+					{
+						if (hpp == 1) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (hpp == 2) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (hpp == 3) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						else{
+							System.out.println("Invalid input!");
+							break;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	static void Watch() {
+		System.out.println("Welcome to the SmartWearable category of the Cartttt");
+		System.out.println("Following are the SmartWearable we offer:-");
+		System.out.println("1.Samsung");
+		System.out.println("2.GoNoise");
+		System.out.println("3.Apple");
+		while (true) {
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Enter option:");
+			int Acs = sc.nextInt();
+			if (Acs == 0) {
+				break;
+			}
+			if (Acs == 1 || Acs == 2||Acs==3 ) {
+				if (Acs == 1) {
+
+					System.out.println("Welcome to Samsung Section of the Cartt:-");
+					System.out.println("*******************************************");
+					System.out.println("1.Samsung galaxy Watch 5"+"\n Rs.30,000");
+					System.out.println();
+					System.out.println("2.Samsung galaxy Watch 5 pro"+"\n Rs.44,990");
+					System.out.println();
+					System.out.println("3.Samsung galaxy Watch 5 pro"+"\n Rs.51,550");
+					System.out.println();
+					System.out.println("Choose Option of which product you prefer to Buy:-");
+					int San = sc.nextInt();
+					if (San == 0)
+					{
+						break;
+					}
+					if (San == 1 || San == 2 || San == 3 )
+					{
+						if (San == 1) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (San == 2) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (San == 3) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						else{
+							System.out.println("Invalid input!");
+						}
+					}
+				}
+				if (Acs == 2) {
+
+					System.out.println("Welcome to Noise Section of the Cartt:-");
+					System.out.println("*******************************************");
+					System.out.println("1.Noise Pro 4"+"\n Rs.26,500");
+					System.out.println();
+					System.out.println("2.Noise Pro Buzz "+"\n Rs.33,990");
+					System.out.println();
+					System.out.println("3.Noise Pulse 3 "+"\n Rs.42,500");
+					System.out.println();
+					System.out.println("Choose Option of which product you prefer to Buy:-");
+					int go = sc.nextInt();
+					if (go == 0)
+					{
+						break;
+					}
+					if (go == 1 || go == 2 || go == 3 )
+					{
+						if (go == 2) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (go == 2) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (go == 3) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						else{
+							System.out.println("Invalid input!");
+						}
+
+					}
+
+				}
+				if (Acs == 3) {
+
+					System.out.println("Welcome to Apple Section of the Cartt:-");
+					System.out.println("*******************************************");
+					System.out.println("1.Apple Watch Series 8 " + "\n Rs.26,500");
+					System.out.println();
+					System.out.println("2.Apple Watch SE " + "\n Rs.33,990");
+					System.out.println();
+					System.out.println("3.Apple Watch Ultra " + "\n Rs.42,500");
+					System.out.println();
+					System.out.println("Choose Option of which product you prefer to Buy:-");
+					int app = sc.nextInt();
+					if (app == 0) {
+						break;
+					}
+					if (app == 1 || app == 2 || app == 3) {
+						if (app == 1) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (app == 2) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (app == 3) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						} else {
+							System.out.println("Invalid input!");
+						}
+					}
+				}
+			}
+		}
+	}
+	static void Camera() {
+
+		System.out.println("Welcome to the Camera category of the Cartttt");
+		System.out.println("Following are the Camera we offer:-");
+		System.out.println("1.Nikon");
+		System.out.println("2.Sony");
+		System.out.println("3.Canon");
+		while (true) {
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Enter option:");
+			int Ref = sc.nextInt();
+			if (Ref == 0) {
+				break;
+			}
+			if (Ref == 1 || Ref == 2 ||Ref==3) {
+				if (Ref == 1) {
+					System.out.println("1.Nikon D7500"+"\n Rs.45,000");
+					System.out.println();
+					System.out.println("2.Nikon D5600"+"\n Rs.60,000");
+					System.out.println();
+					System.out.println("2.Nikon D7700"+"\n Rs.80,000");
+
+					System.out.println("Choose Option of which product you prefer to Buy:-");
+					int nik = sc.nextInt();
+					if (nik == 0)
+					{
+						break;
+					}
+					if (nik == 1 || nik == 2 || nik ==3 )
+					{
+						if (nik == 1) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (nik == 2) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (nik == 3) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+
+						else{
+							System.out.println("Invalid input!");
+						}
+					}
+				}
+				if (Ref == 2) {
+					System.out.println("1.Sony Mark2 "+"\n Rs.28,500/-");
+					System.out.println();
+					System.out.println("2.Sony mark3 "+"\n Rs.34,990/-");
+					System.out.println();
+					System.out.println("3.Sony mark6"+"\n Rs 35,400/-");
+					System.out.println("Choose Option of which product you prefer to Buy:-");
+					int sonn = sc.nextInt();
+					if (sonn == 0)
+					{
+						break;
+					}
+					if (sonn == 1 || sonn == 2 || sonn ==3 )
+					{
+						if (sonn == 1) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (sonn == 2) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (sonn == 3) {
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						else{
+							System.out.println("Invalid input!");
+						}
+					}
+				}
+
+			}
+			if (Ref == 3) {
+				System.out.println("1.Canon Eos R3 "+"\n Rs.28,500/-");
+				System.out.println();
+				System.out.println("2.Canon Eos R4"+"\n Rs.34,990/-");
+				System.out.println();
+				System.out.println("3.Canon Eos R7"+"\n Rs 35,400/-");
+				System.out.println("Choose Option of which product you prefer to Buy:-");
+				int Can = sc.nextInt();
+				if (Can == 0)
+				{
+					break;
+				}
+				if (Can == 1 || Can == 2 || Can == 3 )
+				{
+					if (Can == 1) {
+						System.out.println("Confirming your Order");
+						System.out.println("Your Order is Placed Succesfully.");
+						System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+						break;
+					}
+					if (Can == 2) {
+						System.out.println("Confirming your Order");
+						System.out.println("Your Order is Placed Succesfully.");
+						System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+						break;
+					}
+					if (Can == 3) {
+						System.out.println("Confirming your Order");
+						System.out.println("Your Order is Placed Succesfully.");
+						System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+						break;
+					}
+					else{
+						System.out.println("Invalid input!");
+					}
+				}
+			}
+
+		}
+
+
+
+	}
+}
