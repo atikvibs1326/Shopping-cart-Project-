@@ -1,0 +1,435 @@
+package com.rd.ShoppingCart.project;
+import java.util.Scanner;
+public class Category1 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner in = new Scanner(System.in);
+		System.out.print("****************HOME APPLIANCES*************************");
+		System.out.println();
+		System.out.print("********************************************************");
+		System.out.println();
+		System.out.println("ALL CATEGORIES:-");
+		System.out.println("1.Television");
+		System.out.println("2.Airconditioner");
+		System.out.println("3.Refrigerator");
+		System.out.println();
+
+		while (true) {
+			System.out.println("Enter Category:-");
+			int category = in.nextInt();
+			if (category == 0) {
+				break;
+			}
+			if (category == 1 || category == 2 || category == 3 || category == 4) 
+			{
+				if (category == 1) {
+
+					System.out.println("");
+					Television();
+					break;
+
+				}
+				if (category == 2) {
+					System.out.println("");
+					Airconditioner();
+					break;
+				}
+				if (category == 3) {
+					System.out.println("");
+					Refrigerator();
+					break;
+				}
+
+			}else{
+				System.out.println("Invalid input!");
+			}
+
+
+
+		} 
+	} 
+
+	static void Television() {
+		System.out.println("Welcome to the TV category of the Cartttt");
+		System.out.println("Following are the Televisions we offer:-");
+		System.out.println("1.Samsung");
+		System.out.println("2.Sony");
+		System.out.println("3.Xiaomi");
+
+		while (true) {
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Enter option:");
+			int option = sc.nextInt();
+			if (option == 0) {
+				break;
+			}
+			if (option == 1 || option == 2 || option == 3 ) {
+				if (option == 1) {
+
+					System.out.println("Welcome to Samsung Section of the Cartt:-");
+					System.out.println("*******************************************");
+					System.out.println("1.SAMSUNG Crystal 4K 108 cm (43 inch) Ultra HD (4K) LED Smart Tizen TV "+"\n Rs.31,490");
+					System.out.println();
+					System.out.println("2.SAMSUNG Crystal 4K 125 cm (50 inch) Ultra HD (4K) LED Smart Tizen TV"+"\n Rd.44,990");
+					System.out.println();
+					System.out.println("3.SAMSUNG The Frame 2021 Series 163 cm (65 inch) QLED Ultra HD (4K) Smart Tizen TV  "+"\n Rs.65,750");
+					System.out.println();
+					System.out.println("Choose Option of which product you prefer to Buy:-");
+					int Sam = sc.nextInt();
+					if (Sam == 0) 
+					{
+						break;
+					}
+					if (Sam == 1 || Sam == 2 || Sam == 3 )
+					{
+						if (Sam == 1) {
+							System.out.println("Rechecking your Order viz:"+"\n SAMSUNG Crystal 4K 108 cm (43 inch) Ultra HD (4K) LED Smart Tizen TV"+"\n Rs.31,490");
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (Sam == 2) {
+							System.out.println("Rechecking your Order viz:"+"\n SAMSUNG Crystal 4K 125 cm (50 inch) Ultra HD (4K) LED Smart Tizen TV"+"\n Rs.44,990");
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (Sam == 3) {
+							System.out.println("Rechecking your Order viz:"+"\n SAMSUNG The Frame 2021 Series 163 cm (65 inch) QLED Ultra HD (4K) Smart Tizen TV"+"\n Rs.Rs.65,750");
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						else{
+							System.out.println("Invalid input!");
+						}
+					}
+
+
+				}
+				if (option == 2) {
+
+					System.out.println("Welcome to Sony Section of the Cartt:-");
+					System.out.println("*******************************************");
+					System.out.println("1.SONY Bravia 4K 108 cm (43 inch) Ultra HD (4K) LED Smart Tizen TV "+"\n Rs.41,490");
+					System.out.println();
+					System.out.println("2.SONY Bravia 4K 125 cm (50 inch) Ultra HD (4K) LED Smart Tizen TV"+"\n Rd.49,990");
+					System.out.println();
+					System.out.println("3.SONY Bravia 163 cm (65 inch) QLED Ultra HD (4K) Smart Tizen TV  "+"\n Rs.72,500");
+					System.out.println();
+					System.out.println("Choose Option of which product you prefer to Buy:-");
+					int Son = sc.nextInt();
+					if (Son == 0) 
+					{
+						break;
+					}
+					if (Son == 1 || Son == 2 || Son == 3 )
+					{
+						if (Son == 2) {
+							System.out.println("Rechecking your Order viz:"+"\n SONY Bravia 4K 108 cm (43 inch) Ultra HD (4K) LED Smart Tizen TV"+"\n Rs.41,490");
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (Son == 2) {
+							System.out.println("Rechecking your Order viz:"+"\n SONY Bravia 4K 125 cm (50 inch) Ultra HD (4K) LED Smart Tizen TV"+"\n Rs.49,990");
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (Son == 3) {
+							System.out.println("Rechecking your Order viz:"+"\n SONY Bravia 163 cm (65 inch) QLED Ultra HD (4K) Smart Tizen TV"+"\n Rs.72,500");
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						else{
+							System.out.println("Invalid input!");
+						}
+					}
+
+
+				}
+				if (option == 3) {
+
+					System.out.println("Welcome to Sony Section of the Cartt:-");
+					System.out.println("*******************************************");
+					System.out.println("1.Xiaomi 4K 108 cm (43 inch) Ultra HD (4K) LED Smart Tizen TV "+"\n Rs.27,490");
+					System.out.println();
+					System.out.println("2.Xiaomi 4K 125 cm (50 inch) Ultra HD (4K) LED Smart Tizen TV"+"\n Rd.35,990");
+					System.out.println();
+					System.out.println("3.Xiaomi 163 cm (65 inch) QLED Ultra HD (4K) Smart Tizen TV  "+"\n Rs.52,500");
+					System.out.println();
+					System.out.println("Choose Option of which product you prefer to Buy:-");
+					int Red = sc.nextInt();
+					if (Red == 0) 
+					{
+						break;
+					}
+					if (Red == 1 || Red == 2 || Red == 3 )
+					{
+						if (Red == 1) {
+							System.out.println("Rechecking your Order viz:"+"\n Xiaomi 4K 108 cm (43 inch) Ultra HD (4K) LED Smart Tizen TV"+"\n Rs.27,490");
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (Red == 2) {
+							System.out.println("Rechecking your Order viz:"+"\n Xiaomi 4K 125 cm (50 inch) Ultra HD (4K) LED Smart Tizen TV"+"\n Rs.35,990");
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (Red == 3) {
+							System.out.println("Rechecking your Order viz:"+"\n Xiaomi 163 cm (65 inch) QLED Ultra HD (4K) Smart Tizen TV"+"\n Rs.52,500");
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						else{
+							System.out.println("Invalid input!");
+							break;
+						}
+					}
+
+
+
+				}
+			}
+
+
+		}
+
+	}
+
+	static void Airconditioner() {
+		System.out.println("Welcome to the Airconditioner category of the Cartttt");
+		System.out.println("Following are the Airconditioner we offer:-");
+		System.out.println("1.Panasonic");
+		System.out.println("2.Carrier");
+
+
+
+		while (true) {
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Enter option:");
+			int Acs = sc.nextInt();
+			if (Acs == 0) {
+				break;
+			}
+			if (Acs == 1 || Acs == 2 ) {
+				if (Acs == 1) {
+
+					System.out.println("Welcome to Panasonic Section of the Cartt:-");
+					System.out.println("*******************************************");
+					System.out.println("1.Panasonic 1 Ton 3 Star Split Inverter AC with Wi-fi Connect - White "+"\n Rs.30,000");
+					System.out.println();
+					System.out.println("2.Panasonic 1.5 Ton 3 Star Split Inverter AC with Wi-fi Connect - White"+"\n Rs.44,990");
+					System.out.println();
+					System.out.println("3.Panasonic 3 Ton 4 Star Split Inverter AC with Wi-fi Connect - White  "+"\n Rs.51,550");
+					System.out.println();
+					System.out.println("Choose Option of which product you prefer to Buy:-");
+					int Pan = sc.nextInt();
+					if (Pan == 0) 
+					{
+						break;
+					}
+					if (Pan == 1 || Pan == 2 || Pan == 3 )
+					{
+						if (Pan == 1) {
+							System.out.println("Rechecking your Order viz:"+"\n Panasonic 1 Ton 3 Star Split Inverter AC with Wi-fi Connect - White "+"\n Rs.30,000");
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (Pan == 2) {
+							System.out.println("Rechecking your Order viz:"+"\n Panasonic 1.5 Ton 3 Star Split Inverter AC with Wi-fi Connect - White"+"\n Rs.44,990");
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (Pan == 3) {
+							System.out.println("Rechecking your Order viz:"+"\n Panasonic 3 Ton 4 Star Split Inverter AC with Wi-fi Connect - White"+"\n Rs.51,550");
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						else{
+							System.out.println("Invalid input!");
+						}
+					}
+
+
+				}
+				if (Acs == 2) {
+
+					System.out.println("Welcome to Carrier Section of the Cartt:-");
+					System.out.println("*******************************************");
+					System.out.println("1.CARRIER 1 Ton 3 Star Split Air Filtration with High Density Filter AC - White  "+"\n Rs.26,500");
+					System.out.println();
+					System.out.println("2.CARRIER 1.5 Ton 3 Star Split Air Filtration with High Density Filter AC - White "+"\n Rs.33,990");
+					System.out.println();
+					System.out.println("3.CARRIER 1 Ton 3 Star Split Air Filtration with High Density Filter AC - White "+"\n Rs.42,500");
+					System.out.println();
+					System.out.println("Choose Option of which product you prefer to Buy:-");
+					int Car = sc.nextInt();
+					if (Car == 0) 
+					{
+						break;
+					}
+					if (Car == 1 || Car == 2 || Car == 3 )
+					{
+						if (Car == 2) {
+							System.out.println("Rechecking your Order viz:"+"\n CARRIER 1 Ton 3 Star Split Air Filtration with High Density Filter AC - White "+"\n Rs.26,500");
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (Car == 2) {
+							System.out.println("Rechecking your Order viz:"+"\n CARRIER 1.5 Ton 3 Star Split Air Filtration with High Density Filter AC - White"+"\n Rs.33,990");
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (Car == 3) {
+							System.out.println("Rechecking your Order viz:"+"\n CARRIER 1 Ton 3 Star Split Air Filtration with High Density Filter AC - White"+"\n Rs.Rs.42,500");
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						else{
+							System.out.println("Invalid input!");
+						}
+					}
+
+
+				}
+
+			}
+
+
+		}
+	}
+	static void Refrigerator() {
+
+		System.out.println("Welcome to the Airconditioner category of the Cartttt");
+		System.out.println("Following are the Airconditioner we offer:-");
+		System.out.println("1.Godrej");
+		System.out.println("2.Whirlpool");
+
+
+
+		while (true) {
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Enter option:");
+			int Ref = sc.nextInt();
+			if (Ref == 0) {
+				break;
+			}
+			if (Ref == 1 || Ref == 2 ) {
+				if (Ref == 1) {
+
+					System.out.println("Welcome to Panasonic Section of the Cartt:-");
+					System.out.println("*******************************************");
+					System.out.println("1.Godrej 350 L Frost Free Double Door 3 Star Refrigerator "+"\n Rs.32,000");
+					System.out.println();
+					System.out.println("2.Godrej 550 L Frost Free Double Door 3 Star Refrigerator"+"\n Rs.45,000");
+					System.out.println();
+
+					System.out.println("Choose Option of which product you prefer to Buy:-");
+					int God = sc.nextInt();
+					if (God == 0) 
+					{
+						break;
+					}
+					if (God == 1 || God == 2  )
+					{
+						if (God == 1) {
+							System.out.println("Rechecking your Order viz:"+"\n Godrej 350 L Frost Free Double Door 3 Star Refrigerator "+"\n Rs.32,000");
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (God == 2) {
+							System.out.println("Rechecking your Order viz:"+"\n Godrej 550 L Frost Free Double Door 3 Star Refrigerator"+"\n Rs.45,000");
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+
+						else{
+							System.out.println("Invalid input!");
+						}
+					}
+
+
+				}
+				if (Ref == 2) {
+
+					System.out.println("Welcome to Whirlpool Section of the Cartt:-");
+					System.out.println("*******************************************");
+					System.out.println("1.Whirlpool 325 L Frost Free Double Door Bottom Mount 3 Star Refrigerator "+"\n Rs.28,500");
+					System.out.println();
+					System.out.println("2.Whirlpool 450 L Frost Free Double Door Bottom Mount 3 Star Refrigerator "+"\n Rs.34,990");
+					System.out.println();
+
+					System.out.println("Choose Option of which product you prefer to Buy:-");
+					int Whirl = sc.nextInt();
+					if (Whirl == 0) 
+					{
+						break;
+					}
+					if (Whirl == 1 || Whirl == 2  )
+					{
+						if (Whirl == 1) {
+							System.out.println("Rechecking your Order viz:"+"\n Whirlpool 325 L Frost Free Double Door Bottom Mount 3 Star Refrigerator "+"\n Rs.28,500");
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+						if (Whirl == 2) {
+							System.out.println("Rechecking your Order viz:"+"\n Whirlpool 450 L Frost Free Double Door Bottom Mount 3 Star Refrigerator"+"\n Rs.34,990");
+							System.out.println("Confirming your Order");
+							System.out.println("Your Order is Placed Succesfully.");
+							System.out.println("!!!!!!!!!!!!!!Thanks for Shopping!!!!!!!!!!");
+							break;
+						}
+
+						else{
+							System.out.println("Invalid input!");
+						}
+					}
+
+
+				}
+
+			}
+
+
+		}
+	}
+}
+
+
+
+
